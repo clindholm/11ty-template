@@ -1,0 +1,40 @@
+{
+  "name": "11ty-template",
+  "version": "1.0.0",
+  "description": "Template to start new Eleventy projects with TailwindCSS",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clindholm/11ty-template.git"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "tailwindcss",
+    "degit",
+    "template"
+  ],
+  "author": "clindholm",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/clindholm/11ty-template/issues"
+  },
+  "homepage": "https://github.com/clindholm/11ty-template#readme",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
+    "cross-env": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.26",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.2.0"
+  }
+}
