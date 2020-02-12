@@ -1,5 +1,5 @@
 # 11ty-template
-Template to start new [Eleventy](11ty.dev) projects with [TailwindCSS](tailwindcss.com)
+Template to start new [Eleventy](https://www.11ty.dev) projects with [TailwindCSS](https://tailwindcss.com)
 
 Can be cloned with:
 
