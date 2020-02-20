@@ -1,12 +1,13 @@
 module.exports = function (config) {
-  config.addPassthroughCopy('./src/images');
+  config.addPassthroughCopy('./src/site/images');
 
-  config.addWatchTarget("./src/css/");
+  config.addWatchTarget("./src/site/css/");
 
-  
+  config.addFilter('date', require('./src/filters/date'));
+
   return {
     dir: {
-      input: "src"
+      input: "src/site"
     },
     passthroughFileCopy: true
   };
